@@ -30,12 +30,23 @@ nav{
 .logo:hover{
     color: coral;
 }
-span{
+/* span{
     color: coral;
     transition: 0.5s;
 
+} */
+.first{
+    color: white;
+    transition: 0.5s;
 }
-span:hover{
+.first:hover{
+    color: coral;
+}
+.second{
+    color: coral;
+    transition: 0.5s;
+}
+.second:hover{
     color: white;
 }
 nav ul li {
@@ -80,10 +91,6 @@ nav ul li a:hover{
     color: white;
     margin: 10px 0px;
     font-size: 75px;
-    transition: 0.5s;
-}
-.name:hover{
-    color: coral;
 }
 .pos{
     color: white;
