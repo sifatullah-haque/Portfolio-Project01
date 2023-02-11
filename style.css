@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #020202;
+    /* background-image: url(./profile.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    cursor: pointer;
+}
+span{
+    color: coral;
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: coral;
+    transition: 0.5s;
+}
+.btn{
+    background-color: coral;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.name{
+    color: white;
+    margin: 10px 0px;
+    font-size: 75px;
+}
+.pos{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.des{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid coral;
+    outline: none;
+    border-radius: 25px;
+    
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: coral;
+    color: white;
+    border-radius: 25px;
+    top: 6px;
+    right: 6px;
+    transition: transform 0.5s;
+}
+.newslatter form input:last-child:hover{
+    transform: scale(0.9);
+}
+.img{
+    width: 350px;
+    height: auto;
+    margin-left: 40%;
+    border-radius: 25px;
+    
+}
