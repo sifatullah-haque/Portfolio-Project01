@@ -25,7 +25,7 @@ nav{
 .logo{
     color: white;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .logo:hover{
     color: coral;
@@ -37,7 +37,7 @@ nav{
 } */
 .first{
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .first:hover{
     color: coral;
