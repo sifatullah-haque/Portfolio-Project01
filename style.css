@@ -12,11 +12,6 @@
     width: 100%;
     height: 100vh;
     background-color: #020202;
-    /* background-image: url(./profile.jpg);
-    background-size: cover;
-    
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 nav{
     display: flex;
@@ -30,10 +25,29 @@ nav{
 .logo{
     color: white;
     cursor: pointer;
+    transition: 0.3s;
 }
-span{
+.logo:hover{
     color: coral;
+}
+/* span{
+    color: coral;
+    transition: 0.5s;
 
+} */
+.first{
+    color: white;
+    transition: 0.3s;
+}
+.first:hover{
+    color: coral;
+}
+.second{
+    color: coral;
+    transition: 0.5s;
+}
+.second:hover{
+    color: white;
 }
 nav ul li {
     list-style-type: none;
